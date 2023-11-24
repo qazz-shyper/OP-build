@@ -39,8 +39,8 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages packa
 svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-svn export https://github.com/vernesong/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
-svn export https://github.com/vernesong/Hyy2001X/AutoBuild-Packages/trunk/luci-app-npc package/luci-app-npc
+svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
+svn export https://github.com/Hyy2001X/AutoBuild-Packages/trunk/luci-app-npc package/luci-app-npc
 
 # Themes
 git clone --depth=1 https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
